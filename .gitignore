@@ -81,3 +81,18 @@ desktop.ini
 *.zip
 *.rar
 *.7z
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated files
+__pycache__/
+dist/
+build/
