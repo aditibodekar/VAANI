@@ -1,0 +1,54 @@
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React / Vite build files
+dist/
+build/
+coverage/
+.vite/
+
+# Python environments and cache
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Large AI training datasets
+datasets/
+dataset/
+processed_data/
+
+# Training videos
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Temporary AI training files
+checkpoints/
+logs/
+runs/
+*.ckpt
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
