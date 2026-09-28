@@ -96,3 +96,21 @@ env/
 __pycache__/
 dist/
 build/
+# Python environments
+venv/
+.venv/
+env/
+
+# Node.js dependencies
+node_modules/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+__pycache__/
+*.pyc
+dist/
+build/
