@@ -1,0 +1,47 @@
+{
+    "Good": {
+        "english": "Good",
+        "hindi": "अच्छा",
+        "marathi": "चांगले"
+    },
+    "Hello": {
+        "english": "Hello",
+        "hindi": "नमस्ते",
+        "marathi": "नमस्कार"
+    },
+    "Hi": {
+        "english": "Hi",
+        "hindi": "नमस्ते",
+        "marathi": "हाय"
+    },
+    "Please": {
+        "english": "Please",
+        "hindi": "कृपया",
+        "marathi": "कृपया"
+    },
+    "Thank You": {
+        "english": "Thank You",
+        "hindi": "धन्यवाद",
+        "marathi": "धन्यवाद"
+    },
+    "Yes": {
+        "english": "Yes",
+        "hindi": "हाँ",
+        "marathi": "होय"
+    },
+    "No": {
+        "english": "No",
+        "hindi": "नहीं",
+        "marathi": "नाही"
+    },
+    "Sorry": {
+        "english": "Sorry",
+        "hindi": "माफ़ कीजिए",
+        "marathi": "माफ करा"
+    },
+    "Namaste": {
+        "english": "Namaste",
+        "hindi": "नमस्ते",
+        "marathi": "नमस्कार"
+    }
+}

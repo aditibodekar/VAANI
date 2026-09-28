@@ -1,0 +1,27 @@
+{
+    "sequence_length": 30,
+    "expected_features": 132,
+    "window_stride": 15,
+    "total_windows": 156,
+    "training_windows": 124,
+    "validation_windows": 32,
+    "number_of_classes": 11,
+    "classes": [
+        "Good",
+        "Hello",
+        "Hi",
+        "Namaste",
+        "No",
+        "Please",
+        "Sorry",
+        "Stop",
+        "Thank You",
+        "Welcome",
+        "Yes"
+    ],
+    "pipeline_test_mode": true,
+    "test_set_available": false,
+    "validation_set_available": true,
+    "validation_is_from_same_original_videos": true,
+    "random_state": 42
+}

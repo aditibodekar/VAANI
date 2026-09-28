@@ -1,0 +1,14 @@
+{
+    "num_samples": 328,
+    "num_features": 126,
+    "num_classes": 5,
+    "classes": [
+        "Good",
+        "Hello",
+        "Hi",
+        "Please",
+        "Thank You"
+    ],
+    "train_samples": 262,
+    "test_samples": 66
+}

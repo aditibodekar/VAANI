@@ -1,0 +1,17 @@
+venv/ 
+.venv/ 
+node_modules/ 
+__pycache__/ 
+*.pyc 
+.env 
+.env.* 
+!.env.example 
+build/
+node_modules/
+venv/
+.venv/
+.env
+.env.*
+!.env.example
+My keys/
+.gitignoregit 
