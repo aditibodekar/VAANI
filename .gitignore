@@ -1,23 +1,17 @@
 
+# ==========================================
+# VAANI PROJECT - GITIGNORE
+# ==========================================
+
 # Node.js dependencies
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+**/node_modules/
 
 # React / Vite build files
 dist/
 build/
-coverage/
 .vite/
-
-# Python environments and cache
-venv/
-.venv/
-env/
-__pycache__/
-*.pyc
-.pytest_cache/
+coverage/
 
 # Environment variables and secrets
 .env
@@ -26,10 +20,34 @@ __pycache__/
 *.pem
 *.key
 
-# Large AI training datasets
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large datasets and training data
 datasets/
 dataset/
 processed_data/
+raw_data/
+training_data/
+
+# Training outputs and temporary checkpoints
+checkpoints/
+logs/
+runs/
+tensorboard/
+*.ckpt
 
 # Training videos
 *.mp4
@@ -37,18 +55,29 @@ processed_data/
 *.avi
 *.mkv
 
-# Temporary AI training files
-checkpoints/
-logs/
-runs/
-*.ckpt
-
-# Editor and operating system files
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
 # Temporary files
 *.tmp
+*.temp
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Archives
+*.zip
+*.rar
+*.7z
